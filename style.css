@@ -1,0 +1,41 @@
+/*   
+Theme Name: Women in Dentistry's Wordpress Site
+URL: http://womenindentistry.net
+Author: Focus Design Group
+Version: 1.0
+*/ 
+
+
+body{
+font-size:16px;
+font-family: arial, sans-serif;
+}
+
+.navbar{
+   font-size:0.875em;
+   margin-bottom:0px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+a{
+color:#a99c9c ;
+}
+
+a:hover{
+color: #ed7d1e;
+}
+
+.navbar-nav li a:hover {
+background-color:transparent;
+}
+
+
+.navbar-brand {
+font-size:2em;
+font-weight: bolder;
+letter-spacing: -3px;
+}
