@@ -39,3 +39,12 @@ font-size:2em;
 font-weight: bolder;
 letter-spacing: -3px;
 }
+
+
+.carousel-content{
+    position: absolute;
+    top: 5em;
+    left: 0;
+    width: 100%;
+    color: white;
+}
