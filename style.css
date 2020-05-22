@@ -48,3 +48,77 @@ letter-spacing: -3px;
     width: 100%;
     color: white;
 }
+
+
+@font-face {
+    font-family: 'satisfy';
+    src: url(fonts/Satisfy/Satisfy-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'ralewaybold';
+    src: url(fonts/Raleway/Raleway-Bold.ttf);
+    font-style: bold;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'raleway';
+    src: url(fonts/Raleway/Raleway-Regular.tff);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(fonts/Open_Sans/OpenSans-Bold.tff);
+    font-style: bold;
+    font-weight: 600;
+}
+
+.Heading {
+    font-family: satisfy;
+    font-weight: 100;
+    font-size: 5em;
+    text-align: center;
+    color: rgb(232,14,138);
+}
+
+.SubpageHeading {
+    font-family: satisfy;
+    font-weight: 100;
+    font-size: 4em;
+    text-align: center;
+    color: rgb(232,14,138);
+}
+
+.SubHeading {
+    font-family: ralewaybold;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+}
+
+.Title {
+    font-family: satisfy;
+    font-weight: 100;
+    font-size: 2em;
+    Text-align: center;
+    color: rgb(232,14,138);
+}
+
+.Paragraph {
+    font-family: raleway, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    text-align: center;
+}
+
+.Button {
+    font-family: OpenSans, sans-serif, bold;
+    font-weight: 600;
+    font-size: 1em;
+    Text-align: center;
+}
