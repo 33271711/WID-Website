@@ -16,11 +16,9 @@ Template Name: Home page
     <div class="item active">
       <img src="images/f1.jpg" alt = "i1" class="img-responsive rel-img">
     </div>
-
     <div class="item">
       <img src="images/f2.png" alt = "i2" class="img-responsive rel-img">
     </div>
-
     <div class="item">
       <img src="images/f3.jpg" alt = "i3" class="img-responsive rel-img">
     </div>
@@ -39,8 +37,8 @@ Template Name: Home page
       Left image
     </div>
     <div class="col-md-6 about-us">
-      Right description <br>
-        Yes <br>
+      Right description<br>
+        Yes<br>
         Here is one <br>
         More lines so I can see if it works <br>
         Yes it does <br>
