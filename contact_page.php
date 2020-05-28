@@ -29,3 +29,5 @@ Template Name: Home page
     <span class="txt-overlay-tagline-right">Here is a title text</span>
     <span class="txt-overlay-desc-right">Here is a description</span>
 
+<?php get_footer();
+/* Tells WordPress to include footer.php */ ?>
