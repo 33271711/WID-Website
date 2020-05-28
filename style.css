@@ -160,3 +160,12 @@ letter-spacing: -3px;
 .home-section{
     margin: 5em;
 }
+
+.small-header{
+    max-height: 500px;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+}
