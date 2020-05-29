@@ -378,7 +378,7 @@ a:hover {
     height: auto;
     position: relative;
     max-height: 700px;
->>>>>>> 43ab0a7f75eb8f222e0152cacddaf09084246578
+>>>>>>> 43ab0a7f75eb8f222e0152cacddaf09084246578 
 }
 
 /* Place text in the middle of the image */
@@ -398,11 +398,33 @@ a:hover {
     width:100%;
     position: relative;
     text-align: center;
+    margin-top 30px;
+    margin-bottom:30px;
 }
 
 .blue-container-content {
     margin-top 30px;
     margin-bottom:30px;
+}
+
+.profile {
+  vertical-align: middle;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  align-content: center;
 }
 
 
