@@ -258,8 +258,6 @@ a:hover {
 
 }
 
-/*-------------------------------------------faq-------------------------------------------*/
-
 
 /*-------------------------------------------General-------------------------------------------*/
 .rel-img {
@@ -415,57 +413,4 @@ span {
     animation: transitionFadeIn 0.7s;
 }
 
-@media only screen and (max-width:991px) {
-    .txt-overlay-desc {
-        font-family: ralewaybold;
-        font-weight: 600;
-        font-size: 2em;
-        position: absolute;
-        top: 40%;
-        left: 5%;
-    }
-
-    .txt-overlay-tagline {
-        font-family: satisfy;
-        font-size: 3em;
-        position: absolute;
-        top: 25%;
-        left: 5%;
-        color: rgb(232, 14, 138);
-    }
-
-    .carousel-overlay {
-        width: 100%;
-        height: auto;
-        max-height: 200px;
-        position: absolute;
-        border: transparent;
-        top: 10%;
-    }
-
-    .btn-lg {
-        position: absolute;
-        color: #ffffff;
-        background-color: rgb(247, 4, 161);
-        padding-left: 3em;
-        padding-right: 3em;
-        border-color: transparent;
-        border-radius: 25px;
-        margin-top: 4em;
-        top: 40%;
-    }
-}
-
-
-@media only screen and (max-width:575px) {
-    .carousel-overlay {
-        width: 100%;
-        height: auto;
-        max-height: 200px;
-        position: absolute;
-        border: transparent;
-        top: 10%;
-        left: 0%;
-
-    }
-
+/*-------------------------------------------faq-------------------------------------------*/
