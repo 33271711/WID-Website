@@ -226,6 +226,9 @@ a:hover {
     font-size: 1em;
     Text-align: center;
 }
+
+/*-------------------------------------------faq-------------------------------------------*/
+
 .faq-header{
     object-fit: cover;
     width: 100%;
@@ -233,6 +236,31 @@ a:hover {
     background-repeat: no-repeat;
     position: relative;
 }
+
+
+.txt-overlay-faq{
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    height: auto;
+}
+
+.txt-lg-overlay-faq{
+    font-family: satisfy;
+    font-size: 5em;
+    position: absolute;
+    top: 35%;
+    color: rgb(232, 14, 138);
+
+}
+
+/*-------------------------------------------faq-------------------------------------------*/
+
+
 /*-------------------------------------------General-------------------------------------------*/
 .rel-img {
     position: relative;
