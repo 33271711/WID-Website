@@ -336,8 +336,8 @@ a:hover{
 
 /* The hero image */
 .hero-image {
-    object-fit: cover;
-    width: 100%;
+  object-fit: cover;
+  width: 100%;
   height: auto;
   position: relative;
   max-height:700px;    
@@ -352,6 +352,20 @@ a:hover{
   transform: translate(-50%, -50%);
   color: rgb(232, 14, 138);
   text-shadow: 2px 2px 5px black;
+}
+
+/* centered blue background section */
+.blue-container {
+    background-color: rgb(156, 188, 187);
+    padding: 3px;
+    width:100%;
+    position: relative;
+    text-align: center;
+}
+
+.blue-container-content {
+    margin-top 30px;
+    margin-bottom:30px;
 }
 
 
