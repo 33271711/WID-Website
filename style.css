@@ -370,11 +370,19 @@ a:hover {
 
 /* The hero image */
 .hero-image {
+<<<<<<< HEAD
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  max-height:700px;    
+=======
     object-fit: cover;
     width: 100%;
     height: auto;
     position: relative;
     max-height: 700px;
+>>>>>>> 43ab0a7f75eb8f222e0152cacddaf09084246578
 }
 
 /* Place text in the middle of the image */
@@ -385,6 +393,20 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(232, 14, 138);
+}
+
+/* centered blue background section */
+.blue-container {
+    background-color: rgb(156, 188, 187);
+    padding: 3px;
+    width:100%;
+    position: relative;
+    text-align: center;
+}
+
+.blue-container-content {
+    margin-top 30px;
+    margin-bottom:30px;
 }
 
 
