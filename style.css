@@ -268,6 +268,30 @@ a:hover {
     transition: 0.3s;
 }
 
+.btn-lg-middle {
+    position: absolute;
+    color: #ffffff;
+    background-color: rgb(247, 4, 161);
+    padding:0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px solid white;
+    border-radius: 50px;
+    margin-top: 4em;
+    transition: 0.3s;
+    top:47%; 
+    left:43%;
+    font-size: 2em;
+}
+
+.btn-lg-middle:hover {
+    color: rgb(247, 4, 161);
+    background-color: #ffffff;
+    border-color: rgb(247, 4, 161);
+    border-radius: 50px;
+    margin-top: 4em;
+    transition: 0.3s;
+}
 /*-------------------------------------------Footer-------------------------------------------*/
 footer{
     position: relative;
@@ -293,9 +317,17 @@ a:hover{
 
 /* The hero image */
 .hero-image {
+<<<<<<< HEAD
   height: 50%;
   position: relative;
   max-height:700px;    
+=======
+ width: 100%;
+    height: auto;
+  max-height: 700px;
+    object-fit: cover;
+    background-repeat: no-repeat;
+>>>>>>> 968f6b3aeef01f9e6a7eab30fdddadc71798f5f9
 }
 
 /* Place text in the middle of the image */
