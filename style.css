@@ -434,36 +434,190 @@ span {
     animation: transitionFadeIn 0.7s;
 }
 
-/*-------------------------------------------contact-------------------------------------------*/
-
-.txt-overlay-tagline-right {
+/*-------------------------------------------contact1-------------------------------------------*/
+.header-mid {
     font-family: satisfy;
     font-size: 5em;
     position: absolute;
     top: 35%;
-    right: 5%;
+    left: 40%;
     color: rgb(232, 14, 138);
 }
 
-.cover-overlay-right {
-    width: 50%;
-    height: auto;
-    min-height: 350px;
+.sub-header {
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
     position: absolute;
-    border: transparent;
-    top: 30%;
-    right: 0%;
-
+    top: 45%;
+    left: 40%;
 }
 
-.txt-overlay-desc-right {
+
+.txt-overlay-tagline-right-1 {
+    font-family: satisfy;
+    font-size: 5em;
+    position: absolute;
+    top: 95%;
+    right: 22%;
+    color: rgb(232, 14, 138);
+    text-align: right;
+    z-index: 1;
+}
+
+.txt-overlay-desc-right-1 {
     font-family: ralewaybold;
     color: black;
     font-weight: 600;
     font-size: 2em;
     position: absolute;
     text-align: center;
-    top: 50%;
-    right: 5%;
+    top: 107%;
+    right: 22%;
     height: auto;
+    text-align: right;
+    z-index: 1;
+}
+
+.cover-overlay-right-1 {
+    width: 50%;
+    height: auto;
+    min-height: 350px;
+    position: absolute;
+    border: transparent;
+    top: 85%;
+    right: 18%;
+    z-index: 0;
+}
+
+/*-------------------------------------------contact2-------------------------------------------*/
+
+.txt-overlay-tagline-right-2 {
+    font-family: satisfy;
+    font-size: 5em;
+    position: absolute;
+    top: 165%;
+    right: 22%;
+    color: rgb(232, 14, 138);
+    text-align: right;
+    z-index: 1;
+}
+
+.txt-overlay-desc-right-2 {
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    top: 175%;
+    right: 22%;
+    height: auto;
+    text-align: right;
+    z-index: 1;
+}
+
+.cover-overlay-right-2 {
+    width: 50%;
+    height: auto;
+    min-height: 350px;
+    position: absolute;
+    border: transparent;
+    top: 155%;
+    right: 18%;
+    z-index: 0;
+}
+
+/*-------------------------------------------contact2-------------------------------------------*/
+
+.txt-overlay-tagline-right-3 {
+    font-family: satisfy;
+    font-size: 5em;
+    position: absolute;
+    top: 240%;
+    right: 22%;
+    color: rgb(232, 14, 138);
+    text-align: right;
+    z-index: 1;
+}
+
+.txt-overlay-desc-right-3 {
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    position: absolute;
+    text-align: center;
+    top: 250%;
+    right: 22%;
+    height: auto;
+    text-align: right;
+    z-index: 1;
+}
+
+.cover-overlay-right-3 {
+    width: 50%;
+    height: auto;
+    min-height: 350px;
+    position: absolute;
+    border: transparent;
+    top: 240%;
+    right: 18%;
+    z-index: 0;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    color: #ffffff;
+    background-color: rgb(247, 4, 161);
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 50px;
+    font-size: 1.5em;
+    float: right;
+    transition: 0.3s;
+}
+
+input[type=submit]:hover {
+      color: rgb(247, 4, 161);
+    background-color: #ffffff;
+    border-color: rgb(247, 4, 161);
+    border-radius: 25px;
+}
+
+.email-header {
+    font-family: satisfy;
+    font-size: 5em;
+    color: rgb(232, 14, 138);
+    position: relative;
+    left: 35%;
+}
+
+.email-text-right {
+    font-family: sans-serif;
+    font-size: 1em;
+    color: gray;
+    position: relative;
+    text-align: right;
+}
+.email-container {
+    background-image: url(images/contact-email-bg.png)
+}
+
+.smaller-container {
+    max-width: 700px;
+    align-content: center;
+    position: relative;
+    left: 20%;
 }
