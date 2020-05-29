@@ -27,8 +27,108 @@
     
 </head>
 <body>
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="images/logo.png" class="nav-logo"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">SUPPORT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+</nav>   
 
-<div class="Heading">
+<div id="my_carousel" class="carousel slide">
+
+  <ol class="carousel-indicators">
+    <li data-target = "#my_carousel" data-slide-to = "0" class="active"></li>
+    <li data-target = "#my_carousel" data-slide-to = "1"></li>
+    <li data-target = "#my_carousel" data-slide-to = "2"></li>
+  </ol>
+  <div class="carousel-inner i">
+    <div class="item active">
+      <img src="images/f1.jpg" alt = "i1" class="img-responsive rel-img">
+    </div>
+
+    <div class="item">
+      <img src="images/f2.png" alt = "i2" class="img-responsive rel-img">
+    </div>
+
+    <div class="item">
+      <img src="images/f3.jpg" alt = "i3" class="img-responsive rel-img">
+    </div>
+  </div>
+</div>
+    <span class="img-overlay"><img src="images/home_page-carousel_overlay-white.png" alt = "bg" class="carousel-overlay"></span>
+    <span class="txt-overlay-tagline">Here is a title text</span>
+    <span class="txt-overlay-desc">Here is a description</span>
+    
+    <span href="" class="btn-lg" role="button">Join Us</span>
+
+
+
+    
+<div class="container-fluid home-section">
+  <div class="container-fluid row">
+    <div class="col-md-6">
+      Left image
+    </div>
+    <div class="col-md-6 about-us">
+      Right description <br>
+        Yes <br>
+        Here is one <br>
+        More lines so I can see if it works <br>
+        Yes it does <br>
+        Nice <br>
+  </div>
+</div>
+</div>
+
+<div class="container Heading"> What we do</div>
+
+<div class="container-fluid home-section">
+  <div class="container-fluid row">
+    <div class="col-sm-4">Left column</div>
+    <div class="col-sm-4">Middle column</div>
+    <div class="col-sm-4">Right column</div>
+</div>
+    </div>
+<div class="container-fluid">
+  <div class="container-fluid row">
+    <div class="col-md-6 about-us">
+        <span class="Heading">Cup of Coffee</span><br>
+        Yes <br>
+        Here is one <br>
+        More lines so I can see if it works <br>
+        Yes it does <br>
+        Nice <br>
+    </div>
+    <div class="col-md-6 ">
+        Right image
+  </div>
+</div>
+<footer class="container-fluid">
+    
+    
+    
+    
+    <div class="Heading">
   <p>Satisfy Home</p>
 </div>
     
@@ -50,8 +150,11 @@
     
   <div class="Button">
    <p>OpenSans Button</p>
-</div>    
+</div> 
 
+</footer>
+
+<<<<<<< HEAD
     
 <footer class="container-fluid">
     <div class="row">
@@ -77,3 +180,17 @@
     
 </body>
 </html>
+=======
+<!—DELETE ALL JAVASCRIPT -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+  $(document).ready(function() {
+    $('.carousel').carousel({
+      interval: 4000
+    })
+  });
+</script>
+>>>>>>> 209fc72a1658a2ac4ceb6682402ddaea540e6801
