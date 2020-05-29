@@ -151,7 +151,6 @@ a:hover {
 }
 
 
-
 /*-------------------------------------------Fonts-------------------------------------------*/
 
 @font-face {
@@ -427,6 +426,12 @@ a:hover {
   align-content: center;
 }
 
+.right-img{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 /*-------------------------------------------button-------------------------------------------*/
 
