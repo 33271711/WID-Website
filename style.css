@@ -266,7 +266,7 @@ a:hover {
 .btn-lg {
     position: absolute;
     color: #ffffff;
-    background-color: rgb(247, 4, 161);
+    background-color: rgb(68, 147, 148);
     padding-left: 3em;
     padding-right: 3em;
     border-color: transparent;
@@ -275,12 +275,13 @@ a:hover {
     top: 50%;
     left: 5%;
     transition: 0.3s;
+    box-shadow: 2px 2px 5px black;
 }
 
 .btn-lg:hover {
     color: rgb(247, 4, 161);
     background-color: #ffffff;
-    border-color: rgb(247, 4, 161);
+    border-color: rgb(68, 147, 148);
     border-radius: 25px;
     margin-top: 4em;
     transition: 0.3s;
@@ -289,7 +290,7 @@ a:hover {
 .btn-lg-middle {
     position: absolute;
     color: #ffffff;
-    background-color: rgb(247, 4, 161);
+    background-color: rgb(68, 147, 148);
     padding:0.25em;
     padding-left: 2em;
     padding-right: 2em;
@@ -305,7 +306,7 @@ a:hover {
 .btn-lg-middle:hover {
     color: rgb(247, 4, 161);
     background-color: #ffffff;
-    border-color: rgb(247, 4, 161);
+    border-color: rgb(68, 147, 148);
     border-radius: 50px;
     margin-top: 4em;
     transition: 0.3s;
@@ -387,7 +388,7 @@ a:hover{
 .btn-lg {
     position: absolute;
     color: #ffffff;
-    background-color: rgb(247, 4, 161);
+    background-color: rgb(68, 147, 148);
     padding-left: 3em;
     padding-right: 3em;
     border-color: transparent;
