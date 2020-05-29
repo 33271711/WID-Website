@@ -11,6 +11,20 @@ body {
     font-family: arial, sans-serif;
 }
 
+/*-------------------------------------------Animation control-------------------------------------------*/
+
+@keyframes transitionFadeIn {
+    from { 
+        opacity:0;
+        transform: :rotateX(-10deg)
+    }
+    to { 
+        opacity:1;
+        transform: :rotateX(0)
+    }
+}
+
+
 /*-------------------------------------------navbar-------------------------------------------*/
 .navbar {
     font-family: 'Montserrat', sans-serif;
@@ -336,6 +350,10 @@ a:hover{
 
 
 /*-------------------------------------------button-------------------------------------------*/
+
+span {
+    animation: transitionIn 0.7s;
+}
 
 @media only screen and (max-width:991px) {
 .txt-overlay-desc{
