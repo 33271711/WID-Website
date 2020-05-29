@@ -3,55 +3,56 @@ Theme Name: Women in Dentistry's Wordpress Site
 URL: http://womenindentistry.net
 Author: Focus Design Group
 Version: 1.0
-*/ 
+*/
 
 
-body{
-font-size:16px;
-font-family: arial, sans-serif;
+body {
+    font-size: 16px;
+    font-family: arial, sans-serif;
 }
 
+/*-------------------------------------------navbar-------------------------------------------*/
 .navbar {
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 3em;
-	border: none;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    border: none;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+.navbar img {
+    margin-top: 5px;
+}
+
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
     background-color: white;
-		color: black;
-}
-
-.nav-logo{
-    
-}
-
-.navbar-default {
-	.navbar-brand,
-	.navbar-nav>li>a {
     color: black;
-		
-	}
-	.navbar-brand {
-		font-weight: 700;
-		font-size: 1.25em;
-		letter-spacing: 3px;
-	}
 }
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: rgb(247, 4, 161);
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: black;
+}
+
 
 .container-fluid {
-	background-color: #fff;
+    background-color: #fff;
 }
 
 .navbar-toggle {
-	border: none;
+    border: none;
 }
 
 .icon-bar {
-	// color: black;
+    // color: black;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
     background-color: #fff;
 }
 
@@ -60,32 +61,46 @@ font-family: arial, sans-serif;
 }
 
 
-a{
-color:#a99c9c ;
+a {
+    color: #a99c9c;
 }
 
-a:hover{
-color: #ed7d1e;
+a:hover {
+    color: #ed7d1e;
 }
 
 .navbar-nav li a:hover {
-background-color:transparent;
+    background-color: transparent;
 }
 
 
 .navbar-brand {
-font-size:2em;
-font-weight: bolder;
-letter-spacing: -3px;
+    font-size: 2em;
+    font-weight: bolder;
+    letter-spacing: -3px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 20%;
 }
 
+/*-------------------------------------------navbar-------------------------------------------*/
 
-.carousel-content{
+.carousel-content {
     position: absolute;
     top: 5em;
     left: 0;
     width: 100%;
     color: white;
+}
+
+
+.txt-overlay-desc{
+    margin-left: 5%;
+    font-family: ralewaybold;
+    font-weight: 600;
+    font-size: 2em;
+    text-align: center;
+
 }
 
 
@@ -122,7 +137,7 @@ letter-spacing: -3px;
     font-weight: 100;
     font-size: 5em;
     text-align: center;
-    color: rgb(232,14,138);
+    color: rgb(232, 14, 138);
 }
 
 .SubpageHeading {
@@ -130,7 +145,7 @@ letter-spacing: -3px;
     font-weight: 100;
     font-size: 4em;
     text-align: center;
-    color: rgb(232,14,138);
+    color: rgb(232, 14, 138);
 }
 
 .SubHeading {
@@ -145,7 +160,7 @@ letter-spacing: -3px;
     font-weight: 100;
     font-size: 2em;
     Text-align: center;
-    color: rgb(232,14,138);
+    color: rgb(232, 14, 138);
 }
 
 .Paragraph {
@@ -162,73 +177,90 @@ letter-spacing: -3px;
     Text-align: center;
 }
 
-.rel-img{
+.rel-img {
     position: relative;
     margin: auto;
 }
 
-.txt-overlay-tagline{
+.txt-overlay-tagline {
     font-family: satisfy;
     font-size: 5em;
     position: absolute;
-    top: 35%;%;
+    top: 35%;
+    %;
     left: 5%;
-    color: rgb(232,14,138);
+    color: rgb(232, 14, 138);
+}
+
+.txt-overlay-desc {
+    position: absolute;
+    bottom: 0;
+    top: 30% left: 5%;
+    color: rgb(232, 14, 138);
+}
+
+.carousel-overlay {
+    font-family: satisfy;
+    font-size: 5em;
+    position: absolute;
+    border: transparent;
+    top: 30%;
+    left: 0%;
+    
+    
+    
 }
 
 .txt-overlay-desc{
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
     position: absolute;
-    bottom: 0;
-    top: 30%
-    left: 5%;
-    color: rgb(232,14,138);
+    text-align: center;
+    top: 46%;
+
 }
 
-.carousel-overlay{
-    font-family: satisfy;
-    font-size: 5em;
-    position: absolute;
-    border:transparent;
-    top: 30%;
-    left: 0%;
-}
-
-.about-us{
+.about-us {
     background-color: aquamarine;
     opacity: 0.7;
 }
 
-.home-section{
+.home-section {
     margin: 5em;
 }
 
-.small-header{
+.small-header {
     max-height: 500px;
 }
 
-img{
+img {
     max-height: 100%;
     max-width: 100%;
 }
 
 /*-------------------------------------------button-------------------------------------------*/
 
-.btn {
+.btn-lg {
     position: absolute;
     color: #ffffff;
-    background-color:rgb(247, 4, 161);
+    background-color: rgb(247, 4, 161);
+    padding-left: 3em;
+    padding-right: 3em;
     border-color: transparent;
     border-radius: 25px;
     margin-top: 4em;
-    top:40%;   
+    top: 45%;
     left: 5%;
 }
 
-.btn:hover {
-    color:rgb(247, 4, 161);
-    background-color:#ffffff;
+.btn-lg:hover {
+    color: rgb(247, 4, 161);
+    background-color: #ffffff;
     border-color: rgb(247, 4, 161);
     border-radius: 25px;
     margin-top: 4em
 }
+
 /*-------------------------------------------button-------------------------------------------*/
