@@ -150,6 +150,8 @@ a:hover {
     height: auto;
 }
 
+
+
 /*-------------------------------------------Fonts-------------------------------------------*/
 
 @font-face {
@@ -360,7 +362,7 @@ a:hover {
 /*-------------------------------------------button-------------------------------------------*/
 
 span {
-    animation: transitionIn 0.7s;
+    animation: transitionFadeIn 0.7s;
 }
 
 @media only screen and (max-width:991px) {
