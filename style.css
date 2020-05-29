@@ -11,6 +11,20 @@ body {
     font-family: arial, sans-serif;
 }
 
+/*-------------------------------------------Animation control-------------------------------------------*/
+
+@keyframes transitionFadeIn {
+    from { 
+        opacity:0;
+        transform: :rotateX(-10deg)
+    }
+    to { 
+        opacity:1;
+        transform: :rotateX(0)
+    }
+}
+
+
 /*-------------------------------------------navbar-------------------------------------------*/
 .navbar {
     font-family: 'Montserrat', sans-serif;
@@ -272,16 +286,16 @@ a:hover {
     position: absolute;
     color: #ffffff;
     background-color: rgb(247, 4, 161);
-    padding:0.5em;
+    padding:0.25em;
     padding-left: 2em;
     padding-right: 2em;
-    border: 2px solid white;
     border-radius: 50px;
     margin-top: 4em;
     transition: 0.3s;
     top:47%; 
     left:43%;
     font-size: 2em;
+    box-shadow: 2px 2px 5px black;
 }
 
 .btn-lg-middle:hover {
@@ -317,17 +331,11 @@ a:hover{
 
 /* The hero image */
 .hero-image {
-<<<<<<< HEAD
-  height: 50%;
+    object-fit: cover;
+    width: 100%;
+  height: auto;
   position: relative;
   max-height:700px;    
-=======
- width: 100%;
-    height: auto;
-  max-height: 700px;
-    object-fit: cover;
-    background-repeat: no-repeat;
->>>>>>> 968f6b3aeef01f9e6a7eab30fdddadc71798f5f9
 }
 
 /* Place text in the middle of the image */
@@ -338,10 +346,15 @@ a:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(232, 14, 138);
+  text-shadow: 2px 2px 5px black;
 }
 
 
 /*-------------------------------------------button-------------------------------------------*/
+
+span {
+    animation: transitionIn 0.7s;
+}
 
 @media only screen and (max-width:991px) {
 .txt-overlay-desc{
