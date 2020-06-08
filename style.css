@@ -150,6 +150,8 @@ a:hover {
     height: auto;
 }
 
+<<<<<<< HEAD
+=======
 .left-img{  
     width: 100%;
     height: auto;
@@ -157,6 +159,7 @@ a:hover {
     position: relative;
     
 }
+>>>>>>> 30a9f003093668f73b27d8832b0587815b93b366
 
 /*-------------------------------------------Fonts-------------------------------------------*/
 
@@ -425,6 +428,12 @@ a:hover {
   align-content: center;
 }
 
+.right-img{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
 /*-------------------------------------------button-------------------------------------------*/
 
