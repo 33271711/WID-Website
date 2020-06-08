@@ -150,16 +150,15 @@ a:hover {
     height: auto;
 }
 
-<<<<<<< HEAD
-=======
+
 .left-img{  
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
     position: relative;
+    max-width: 800px;
     
 }
->>>>>>> 30a9f003093668f73b27d8832b0587815b93b366
 
 /*-------------------------------------------Fonts-------------------------------------------*/
 
@@ -222,11 +221,24 @@ a:hover {
     color: rgb(232, 14, 138);
 }
 
+.Date {
+    font-family: satisfy;
+    font-weight: 100;
+    font-size: 2em;
+    Text-align: center;
+    color: black;
+}
+
+.EventTitle {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+}
+
 .Paragraph {
     font-family: raleway, sans-serif;
     font-weight: 100;
     font-size: 1em;
-    text-align: center;
 }
 
 .Button {
@@ -267,6 +279,22 @@ a:hover {
 
 }
 
+/*-------------------------------------------faq-------------------------------------------*/
+.event-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.event-divider {
+  border-left: 6px solid #9cbcbb;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
 
 /*-------------------------------------------General-------------------------------------------*/
 
@@ -379,17 +407,29 @@ a:hover {
   width: 100%;
   height: auto;
   position: relative;
-  max-height:700px;    
+  max-height: 450px;    
 }
 
 /* Place text in the middle of the image */
 .hero-text {
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: rgb(232, 14, 138);
+}
+
+.hero-sub-text {
+    font-family: ralewaybold;
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
 }
 
 /* centered blue background section */
