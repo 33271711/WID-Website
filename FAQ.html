@@ -58,16 +58,97 @@
     <div>
     <img src="images/faq-header-girl.jpeg" class="img-responsive faq-header">
     </div>
-<<<<<<< HEAD
-    
     <div>
-    <span class="txt-lg-overlay-faq">Here is a title text</span>
+    <span class="txt-lg-overlay-faq">Support</span>
     <span class="txt-overlay-faq">Here is a description</span>
-    <span href="" class="btn-lg" role="button">JOIN US</span>
+</div>
+<br>
+<h2 class="Title">Frequently Asked Questions</h2>
+<br>
+<div class="faqcontainer">
+<button class="accordion">Where do I sign up?</button>
+<div class="panel">
+  <p><br>Please go to our JOIN (can we link this word back to the JOIN page?) page to apply for membership in the Women in Dentistry Society (WA). Please note that eligibility criteria apply.</p>
+</div>
+
+<button class="accordion">How much is the membership?</button>
+<div class="panel">
+  <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">How do I become a mentor?</button>
+<div class="panel">
+  <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
     
-    
-=======
->>>>>>> 25588e96e049526c4d095557aadce00f303838f3
+<button class="accordion">Can my children or partner attend?</button>
+<div class="panel">
+  <p><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">Can males attend the events?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">Can I join or attend events if I am not a dentist?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">How do I become a Council Member?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">How often do you hold events and meetings?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="accordion">HI am keen to give back to the community. Do you provide any volunteering opportunities?</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>
     </body>
+    
+    <footer class="container-fluid">
+    <div class="row">
+    <div class= "footer-content">
+          <p>CONTACT US AT<br>
+  <a href="admin@womenindentistry.net">admin@womenindentistry.net</a></p> 
+    <div class="col-md-6 text-center">
+       <img src="images/widlogo.png" alt="widlogo" width="250px">
+    </div>
+    <div class="col-md-6 text-center hover">
+        <a href="admin@womenindentistry.net"><img src="images/inlogo.png" alt="inlogo"></a>
+        <a href="admin@womenindentistry.net"><img src="images/fblogo.png" alt="fblogo"></a>
+    </div>
+    </div>
+    </div>
+    <hr width=100% align=center>
+    <div class= "footer-content">
+    <p style="color:darkgrey;">© 2020 Women In Dentistry Society. All rights reserved.
+        <a href="sitemapURL.com">Sitemap</a></p>
+    </div>    
+</footer>  
+
+<!—DELETE ALL JAVASCRIPT -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+    
 </html>

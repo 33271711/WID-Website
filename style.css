@@ -258,7 +258,7 @@ a:hover {
 .faq-header{
     object-fit: cover;
     width: 100%;
-    max-height: 600px;
+    max-height: 400px;
     background-repeat: no-repeat;
     position: relative;
 }
@@ -270,8 +270,8 @@ a:hover {
     font-weight: 600;
     font-size: 2em;
     position: absolute;
-    text-align: center;
-    top: 50%;
+    top: 31%;
+    left: 45%;
     height: auto;
 }
 
@@ -279,7 +279,8 @@ a:hover {
     font-family: satisfy;
     font-size: 5em;
     position: absolute;
-    top: 35%;
+    top: 20%;
+    left: 45%;
     color: rgb(232, 14, 138);
 
 }
@@ -341,6 +342,57 @@ a:hover {
     max-height: 700px;
     background-repeat: no-repeat;
     position: relative;
+}
+
+/*-------------------------------------------accordion-------------------------------------------*/
+.faqcontainer{
+  position: relative;
+  left: 15%;
+  width: 70%;
+  }
+
+.accordion {
+  font-family: ralewaybold;
+  font-size: 1.5em;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 5px;
+ 
+}
+
+.active, .accordion:hover {
+  background-color: #ec008c;
+    color: white;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #ec008c;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+    font-family: raleway, sans-serif;
+    font-size: 1.5em;
+  padding: 0 20px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+    width: 100%;
 }
 
 /*-------------------------------------------button-------------------------------------------*/
