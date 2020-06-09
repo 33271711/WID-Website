@@ -286,10 +286,14 @@ a:hover {
 
 /*-------------------------------------------events-------------------------------------------*/
 .event-img{
+    position: relative;
     border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     object-fit: cover;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: 3px solid white;
 }
 
 .event-divider {
@@ -299,6 +303,7 @@ a:hover {
 
 .past-event-bg{
     background-color: #9cbcbb;
+    border-radius: 20px;
 }
 
 .event-tab{
@@ -404,6 +409,28 @@ a:hover {
 }
 
 .btn-lg-event:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-lg-event-center {
+    font-family: ralewaybold;
+    color: #ffffff;
+    background-color: #449394;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.btn-lg-event-center:hover {
     color: #000000;
     background-color: #ffffff;
     border-radius: 25px;
@@ -699,4 +726,79 @@ input[type=submit]:hover {
     align-content: center;
     position: relative;
     left: 20%;
+}
+
+/*-------------------------------------------Modal-------------------------------------------*/
+.modal_centering{
+    position: relative;
+    text-align: center;
+}
+.modal_image {
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.modal_image:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes zoom {
+    from {transform: scale(0.1)}
+    to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }

@@ -79,6 +79,7 @@
     <div class="col-md-4"><img src="images/contact-body-sponser.jpeg" class="event-img" alt="contact"></div>
     </div>
 </div>    
+</div>
 <br>
 <div class="container past-event-bg"><h2 class="Title">Past Events</h2>
 <div class="container-fluid past-event-bg">
@@ -105,12 +106,34 @@
         <div class="col-md-4"><img src="images/contact-body-sponser.jpeg" class="event-img" alt="contact"></div>
     </div>
     </div>
+    </div></div>
+<br>
+<h2 class="Title">Photos</h2>
+<!-- Gallery -->
+    <div class="modal_centering">
+<!-- Trigger the Modal -->
+            <img class="modal_image" src="images/aboutus-header.png" alt="hello" style="width:100%;max-width:280px">
+            <img class="modal_image" src="images/Contact-body-healing-smiles.jpeg" alt="img2" style="width:100%;max-width:280px">
+            <img class="modal_image" src="images/contact-body-sponser.jpeg" alt="img3" style="width:100%;max-width:280px">
+            <img class="modal_image" src="images/homecupofcoffee.png" alt="img4" style="width:100%;max-width:280px">
     </div>
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+</div>
+<br>
+<div class="container past-event-bg">
+    <h2 class="Title">Need more information?</h2>
+    <p class="Paragraph" style="text-align: center">Sign up to get our newsletter for all the latest events and news!</p>
+    <a href="" class="btn-lg-event-center" role="button">CONTACT US</a>
 <br>
 <br>
+</div>
+    
 
-    </div>
-        
+    
+    
 <footer class="container-fluid">
     <div class="row">
     <div class= "footer-content">
@@ -143,6 +166,30 @@
       interval: 4000
     })
   });
+        
+    </script>
+    <script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a cap
+var img = document.getElementsByClassName('modal_image');
+for(var i=0; i<img.length; i++){
+var modalImg = document.getElementById("img01");
+img[i].addEventListener('click',function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+})
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
 </script>
     
     </body>

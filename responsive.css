@@ -43,7 +43,12 @@
     width: 100%;
     height: auto;
     max-height: 150px;
-    
+    margin: auto;
+    margin-top: 20px;
+    }
+    .modal-content {
+    width: 100%;
+    }
 }
 
 
@@ -63,5 +68,10 @@
     width: 100%;
     height: auto;
     max-height: 150px;
+    margin: auto;
+    margin-top: 20px;
     }
+   .modal-content {
+    width: 100%;
+  }
 }
