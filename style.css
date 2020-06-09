@@ -279,21 +279,24 @@ a:hover {
 
 }
 
-/*-------------------------------------------faq-------------------------------------------*/
+/*-------------------------------------------events-------------------------------------------*/
 .event-img{
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     object-fit: cover;
 }
 
 .event-divider {
-  border-left: 6px solid #9cbcbb;
-  height: 300px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
+  border-right: 6px solid #9cbcbb;
+}
+
+.past-event-bg{
+    background-color: #9cbcbb;
+}
+
+.event-tab{
+    padding-bottom: 20px;
 }
 
 /*-------------------------------------------General-------------------------------------------*/
