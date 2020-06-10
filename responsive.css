@@ -35,7 +35,7 @@
         border-color: transparent;
         border-radius: 25px;
         margin-top: 4em;
-        top: 40%;
+        top: 45%;
     }
     .event-img{
     object-fit: cover;
@@ -67,6 +67,11 @@
     }
 
 @media only screen and (max-width:700px) {
+    
+    .Heading {
+        font-size: 4em;
+    }
+    
     .event-header-text {
         font-size: 3em;
         top:15%;
@@ -80,6 +85,9 @@
         .btn-lg-event-header {
         top:40%;
 }
+.txt-overlay-desc {
+    text-align: left;
+    font-size: 1.5em;
     }
 
 @media only screen and (max-width:575px) {
