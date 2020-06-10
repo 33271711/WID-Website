@@ -60,6 +60,26 @@
     height: auto;
     padding-right: 40px;
     }
+    
+    .btn-lg-event-header {
+        top:50%;
+}
+    }
+
+@media only screen and (max-width:700px) {
+    .event-header-text {
+        font-size: 3em;
+        top:15%;
+
+}
+
+.event-sub-text {
+    top: 27%;
+    font-size: 2em;
+}
+        .btn-lg-event-header {
+        top:40%;
+}
     }
 
 @media only screen and (max-width:575px) {
@@ -87,5 +107,19 @@
     .txt-overlay-faq{
     display: none;
 }
+    .event-header-text {
+    font-size: 2em;
+    top:14%;
+
+}
+    .event-sub-text {
+    top: 25%;
+    font-size: 1.2em;
+}
+    .btn-lg-event-header {
+        top:33%;
+        width: 50%;
+}
+
 }
 
