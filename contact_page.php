@@ -20,14 +20,14 @@ Template Name: Home page
 <div id="speaker" class="container-fluid"></div>
     <img src="" class=""><br>
     <span class="img-overlay-right"><img src="images/home_page-carousel_overlay-white.png" alt = "bg" class="carousel-overlay"></span>
-    <span class="txt-overlay-tagline-right">Here is a title text</span>
-    <span class="txt-overlay-desc-right">Here is a description</span>
+    <span class="txt-overlay-tagline-right">Wish to be a speaker?</span>
+    <span class="txt-overlay-desc-right">Help inspire our members by sharing your story, knowledge and expertise with us. We welcome speakers from a wide range of backgrounds who speak on topics of relevance to women in our roles in dentistry, family and community.</span>
 
 <div id="sponsor" class="container-fluid"></div>
     <img src="" class=""><br>
     <span class="img-overlay-right"><img src="images/home_page-carousel_overlay-white.png" alt = "bg" class="carousel-overlay"></span>
-    <span class="txt-overlay-tagline-right">Here is a title text</span>
-    <span class="txt-overlay-desc-right">Here is a description</span>
+    <span class="txt-overlay-tagline-right">Interested in sponsoring us?</span>
+    <span class="txt-overlay-desc-right">Women in Dentistry Society (WA) has strong support in the dental community. Our events are well attended and provide fantastic networking and advertising opportunities, as well as a platform to discuss your business with interested individuals. Your support of our events also assists in raising funds for charities, dental scholarships and research.</span>
 
 <?php get_footer();
 /* Tells WordPress to include footer.php */ ?>
