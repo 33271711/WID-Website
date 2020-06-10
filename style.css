@@ -588,7 +588,13 @@ span {
 }
 
 /*-------------------------------------------contact1-------------------------------------------*/
-
+.ContactParagraph {
+    font-family: raleway, sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-left: 1.45em;
+    padding: 50px;
+}
 .contact-img {
     background-image: url(images/contact-header-girl.jpg);
     background-size: cover;
@@ -601,7 +607,7 @@ span {
     font-size: 5em;
     position: absolute;
     top: 35%;
-    left: 40%;
+    left: 35%;
     color: rgb(232, 14, 138);
 }
 
@@ -611,8 +617,8 @@ span {
     font-weight: 600;
     font-size: 2em;
     position: absolute;
-    top: 45%;
-    left: 40%;
+    top: 60%;
+    left: 35%;
 }
 
 
@@ -640,10 +646,10 @@ span {
 .contact-overlay-desc-right {
     font-family: ralewaybold;
     font-size: 2em;
-    padding-top: 100px;
+    padding-top: 200px;
     padding-right: 20px;
     position: relative;
-    float: right;
+    text-align: right;
 }
 .
 
@@ -687,7 +693,7 @@ input[type=submit]:hover {
 
 .email-text-right {
     font-family: sans-serif;
-    font-size: 1em;
+    font-size: 0.75em;
     color: gray;
     position: relative;
     text-align: right;
