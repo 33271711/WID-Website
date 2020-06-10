@@ -670,6 +670,11 @@ display: block;
     position: relative;
 }
 
+.about-divider {
+  border-left: 6px solid #449394;
+    padding-right: 20px;
+}
+
 .AboutTitle{
     margin-top: 40px;
 }
