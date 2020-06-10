@@ -1,3 +1,14 @@
+
+a:link {
+  color: rgb(232, 14, 138);
+}
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
 /*   
 Theme Name: Women in Dentistry's Wordpress Site
 URL: http://womenindentistry.net
@@ -9,7 +20,6 @@ Version: 1.0
 body {
     font-size: 16px;
     font-family: arial, sans-serif;
-    background-color: aqua;
 }
 
 /*-------------------------------------------Animation control-------------------------------------------*/
@@ -87,14 +97,6 @@ body {
 }
 
 
-a {
-    color: #a99c9c;
-}
-
-a:hover {
-    color: #ed7d1e;
-}
-
 .navbar-nav li a:hover {
     background-color: transparent;
 }
@@ -166,7 +168,6 @@ a:hover {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
-    position: relative;
     max-width: 800px;
     
 }
@@ -252,6 +253,7 @@ a:hover {
     padding-bottom: 10px;
 }
 
+
 .Paragraph {
     font-family: raleway, sans-serif;
     font-weight: 100;
@@ -312,18 +314,49 @@ a:hover {
 }
 
 .event-divider {
-  border-left: 6px solid #449394;
-    padding-right: 10px;
+  border-right: 6px solid #449394;
+    padding-right: 20px;
 }
 
 .past-event-bg{
     background-color: #9cbcbb;
     border-radius: 20px;
 }
+.past-event-bg-noround{
+    background-color: #9cbcbb;
+    
+}
 
 .event-tab{
     padding-bottom: 20px;
     margin: auto;
+}
+
+.event-header-text {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(232, 14, 138);
+    text-shadow: 0 0 5px white;
+}
+
+.event-sub-text {
+    font-family: raleway;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
+}
+
+.event-img-small {
+    object-fit: cover;
+    max-width: 400px;
+    height: auto;
 }
 
 /*-------------------------------------------General-------------------------------------------*/
@@ -334,10 +367,6 @@ a:hover {
     min-height: 400px;
 }
 
-
-.about-us {
-   
-}
 
 .small-header {
     max-height: 500px;
@@ -493,6 +522,79 @@ a:hover {
     transition: 0.3s;
 }
 
+.btn-lg-event-header {
+    font-family: ralewaybold;
+    color: #ffffff;
+    background-color: #449394;
+    text-align: center;
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: auto;
+    width: 20%;
+}
+
+.btn-lg-event-header:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-lg-contact {
+    font-family: ralewaybold;
+    position: relative;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #449394;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    float: right;
+}
+
+.btn-lg-contact:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn-lg-about-center {
+    font-family: ralewaybold;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    width: auto;
+    color: #ffffff;
+    background-color: #449394;
+    padding-right: 4em;
+    padding-left: 4em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    display: block;
+    margin: auto;
+}
+
+.btn-lg-about-center:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
 /*-------------------------------------------Footer-------------------------------------------*/
 footer {
     position: relative;
@@ -527,11 +629,9 @@ a:hover {
 
 /* Place text in the middle of the image */
 .hero-text {
-    text-align: center;
     position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 42%;
     color: rgb(232, 14, 138);
 }
 
@@ -539,7 +639,7 @@ a:hover {
     font-family: ralewaybold;
     text-align: center;
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -564,16 +664,15 @@ a:hover {
 }
 
 .profile {
-  vertical-align: middle;
   width: 130px;
   height: 130px;
   border-radius: 50%;
+  object-fit: cover;
+margin: auto;    
+display: block;
+    margin-bottom: 20px;
 }
 
-.column {
-  float: left;
-  width: 25%;
-}
 
 /* Clear floats after the columns */
 .row:after {
@@ -588,6 +687,48 @@ a:hover {
     height:auto;
     background-repeat: no-repeat;
     position: relative;
+}
+
+.about-divider {
+  border-left: 6px solid #449394;
+    padding-right: 20px;
+}
+
+.AboutTitle{
+    margin-top: 40px;
+}
+
+.AboutParagraph{
+    font-family: raleway;
+    font-size: 1.5em;
+    padding-bottom: 60px;
+}
+
+.AboutParagraph2{
+    font-family: raleway;
+    font-size: 1em;
+    padding-bottom: 60px;
+}
+
+.memberRole{
+    font-family: ralewaybold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.memberName{
+    font-family: raleway;
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.memberName2{
+    font-family: raleway;
+    font-size: 1.2em;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 /*-------------------------------------------button-------------------------------------------*/
@@ -697,11 +838,29 @@ input[type=submit]:hover {
     font-size: 5em;
     color: rgb(232, 14, 138);
     position: relative;
-    left: 35%;
+    text-align: center;
+    display: block;
+}
+
+.email-header-2 {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.email-header-3 {
+    font-family: satisfy;
+    font-size: 4em;
+    color: rgb(232, 14, 138);
+    position: relative;
+    text-align: center;
+    display: block;
 }
 
 .email-text-right {
-    font-family: sans-serif;
+    font-family: raleway;
     font-size: 0.75em;
     color: gray;
     position: relative;
@@ -718,6 +877,24 @@ input[type=submit]:hover {
     left: 20%;
 }
 
+.thankyou-bg {
+    background-image: url(images/homehealingsmile.png);
+    background-size: cover;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.thankyou-txt {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+    padding-top: 150px;
+}
+
 /*-------------------------------------------Modal-------------------------------------------*/
 .modal_centering{
     position: relative;
@@ -728,6 +905,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    max-height: 160px;
+    object-fit: cover;
 }
 
 .modal_image:hover {opacity: 0.7;}
