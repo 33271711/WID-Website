@@ -29,5 +29,7 @@ Template Name: Home page
     <span class="txt-overlay-tagline-right">Interested in sponsoring us?</span>
     <span class="txt-overlay-desc-right">Women in Dentistry Society (WA) has strong support in the dental community. Our events are well attended and provide fantastic networking and advertising opportunities, as well as a platform to discuss your business with interested individuals. Your support of our events also assists in raising funds for charities, dental scholarships and research.</span>
 
+<p>Visit us on social media </p>
+
 <?php get_footer();
 /* Tells WordPress to include footer.php */ ?>
