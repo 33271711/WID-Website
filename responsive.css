@@ -51,6 +51,17 @@
     }
 }
 
+.txt-overlay-faq{
+    font-family: ralewaybold;
+    color: black;
+    font-weight: 600;
+    font-size: 1.25em;
+    position: absolute;
+    top: 23%;
+    left: 45%;
+    height: auto;
+    padding-right: 40px;
+}
 
 @media only screen and (max-width:575px) {
     .carousel-overlay {
@@ -74,4 +85,8 @@
    .modal-content {
     width: 100%;
   }
+    .txt-overlay-faq{
+    display: none;
 }
+}
+

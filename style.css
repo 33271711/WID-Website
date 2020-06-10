@@ -268,18 +268,19 @@ a:hover {
     font-family: ralewaybold;
     color: black;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.5em;
     position: absolute;
-    top: 31%;
+    top: 23%;
     left: 45%;
     height: auto;
+    padding-right: 40px;
 }
 
 .txt-lg-overlay-faq{
     font-family: satisfy;
     font-size: 5em;
     position: absolute;
-    top: 20%;
+    top: 13%;
     left: 45%;
     color: rgb(232, 14, 138);
 
