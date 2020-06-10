@@ -244,6 +244,7 @@ body {
     padding-bottom: 10px;
 }
 
+
 .Paragraph {
     font-family: raleway, sans-serif;
     font-weight: 100;
@@ -304,8 +305,8 @@ body {
 }
 
 .event-divider {
-  border-left: 6px solid #449394;
-    padding-right: 10px;
+  border-right: 6px solid #449394;
+    padding-right: 20px;
 }
 
 .past-event-bg{
@@ -316,6 +317,27 @@ body {
 .event-tab{
     padding-bottom: 20px;
     margin: auto;
+}
+
+.event-header-text {
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(232, 14, 138);
+    text-shadow: 0 0 5px white;
+}
+
+.event-sub-text {
+    font-family: raleway;
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 2em;
+    text-shadow: 0 0 5px white;
 }
 
 /*-------------------------------------------General-------------------------------------------*/
@@ -481,6 +503,31 @@ body {
     transition: 0.3s;
 }
 
+.btn-lg-event-header {
+    font-family: ralewaybold;
+    color: #ffffff;
+    background-color: #449394;
+    text-align: center;
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: auto;
+    width: 20%;
+}
+
+.btn-lg-event-header:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
 .btn-lg-contact {
     font-family: ralewaybold;
     position: relative;
@@ -573,7 +620,7 @@ a:hover {
     font-family: ralewaybold;
     text-align: center;
     position: absolute;
-    top: 37%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -834,6 +881,8 @@ input[type=submit]:hover {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    max-height: 160px;
+    object-fit: cover;
 }
 
 .modal_image:hover {opacity: 0.7;}
