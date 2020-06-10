@@ -9,7 +9,6 @@ Version: 1.0
 body {
     font-size: 16px;
     font-family: arial, sans-serif;
-    background-color: aqua;
 }
 
 /*-------------------------------------------Animation control-------------------------------------------*/
@@ -484,6 +483,29 @@ a:hover {
     transition: 0.3s;
 }
 
+.btn-lg-contact {
+    font-family: ralewaybold;
+    position: relative;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #449394;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    float: right;
+}
+
+.btn-lg-contact:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
 /*-------------------------------------------Footer-------------------------------------------*/
 footer {
     position: relative;
@@ -688,11 +710,29 @@ input[type=submit]:hover {
     font-size: 5em;
     color: rgb(232, 14, 138);
     position: relative;
-    left: 35%;
+    text-align: center;
+    display: block;
+}
+
+.email-header-2 {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+.email-header-3 {
+    font-family: satisfy;
+    font-size: 4em;
+    color: rgb(232, 14, 138);
+    position: relative;
+    text-align: center;
+    display: block;
 }
 
 .email-text-right {
-    font-family: sans-serif;
+    font-family: raleway;
     font-size: 0.75em;
     color: gray;
     position: relative;
@@ -707,6 +747,24 @@ input[type=submit]:hover {
     align-content: center;
     position: relative;
     left: 20%;
+}
+
+.thankyou-bg {
+    background-image: url(images/homehealingsmile.png);
+    background-size: cover;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.thankyou-txt {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+    position: relative;
+    text-align: center;
+    display: block;
+    padding-top: 150px;
 }
 
 /*-------------------------------------------Modal-------------------------------------------*/
