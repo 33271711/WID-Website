@@ -11,19 +11,18 @@ Template Name: Home page
     <span class="sub-header">Feel free to get in touch with us if you have any questions, comments or feedback</span>
 </div>
 
-<div id="healingsmiles" class="container-fluid">
+<div id="healingsmiles_p" class="container">
+    <p></p>
+</div>
+<div id="healingsmiles" class="container">
     <img src="" class=""><br>
     <span class="txt-overlay-desc-right">Tagline text here</span>
 </div>
-<div id="healingsmiles" class="container-fluid">
+<div id="speaker" class="container">
     <img src="" class=""><br>
-    <span class="txt-overlay-desc-right">Tagline text here</span>
-</div>
-<div id="speaker" class="container-fluid"></div>
-    <img src="" class=""><br>
-    <span class="img-overlay-right"><img src="images/home_page-carousel_overlay-white.png" alt = "bg" class="carousel-overlay"></span>
     <span class="txt-overlay-tagline-right">Wish to be a speaker?</span>
-    <span class="txt-overlay-desc-right">Help inspire our members by sharing your story, knowledge and expertise with us. We welcome speakers from a wide range of backgrounds who speak on topics of relevance to women in our roles in dentistry, family and community.</span>
+</div>
+
 
 <div id="sponsor" class="container-fluid"></div>
     <img src="" class=""><br>
