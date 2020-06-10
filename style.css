@@ -270,7 +270,7 @@ a:hover {
     font-weight: 600;
     font-size: 1.5em;
     position: absolute;
-    top: 23%;
+    top: 29%;
     left: 45%;
     height: auto;
     padding-right: 40px;
@@ -280,7 +280,7 @@ a:hover {
     font-family: satisfy;
     font-size: 5em;
     position: absolute;
-    top: 13%;
+    top: 17%;
     left: 45%;
     color: rgb(232, 14, 138);
 
@@ -334,15 +334,6 @@ a:hover {
 .nav-logo {
     max-height: 100%;
     max-width: 100%;
-}
-
-.contact-img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
-    max-height: 700px;
-    background-repeat: no-repeat;
-    position: relative;
 }
 
 /*-------------------------------------------accordion-------------------------------------------*/
@@ -594,6 +585,14 @@ span {
 }
 
 /*-------------------------------------------contact1-------------------------------------------*/
+
+.contact-img {
+    background-image: url(images/contact-header-girl.jpg);
+    background-size: cover;
+    min-height: 400px;
+    background-repeat: no-repeat;
+    position: relative;
+}
 .header-mid {
     font-family: satisfy;
     font-size: 5em;
@@ -614,117 +613,37 @@ span {
 }
 
 
-.txt-overlay-tagline-right-1 {
-    font-family: satisfy;
-    font-size: 5em;
-    position: absolute;
-    top: 95%;
-    right: 22%;
-    color: rgb(232, 14, 138);
-    text-align: right;
-    z-index: 1;
+.healing-smile-bg {
+    background-image: url(images/contact-body-healing-smiles.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.txt-overlay-desc-right-1 {
+.speaker-bg {
+    background-image: url(images/contact-body-speaker%20copy.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sponsor-bg {
+    background-image: url(images/contact-body-sponser%20copy.jpg);
+    min-height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-overlay-desc-right {
     font-family: ralewaybold;
-    color: black;
-    font-weight: 600;
     font-size: 2em;
-    position: absolute;
-    text-align: center;
-    top: 107%;
-    right: 22%;
-    height: auto;
-    text-align: right;
-    z-index: 1;
+    padding-top: 100px;
+    padding-right: 20px;
+    position: relative;
+    float: right;
 }
+.
 
-.cover-overlay-right-1 {
-    width: 50%;
-    height: auto;
-    min-height: 350px;
-    position: absolute;
-    border: transparent;
-    top: 85%;
-    right: 18%;
-    z-index: 0;
-}
-
-/*-------------------------------------------contact2-------------------------------------------*/
-
-.txt-overlay-tagline-right-2 {
-    font-family: satisfy;
-    font-size: 5em;
-    position: absolute;
-    top: 165%;
-    right: 22%;
-    color: rgb(232, 14, 138);
-    text-align: right;
-    z-index: 1;
-}
-
-.txt-overlay-desc-right-2 {
-    font-family: ralewaybold;
-    color: black;
-    font-weight: 600;
-    font-size: 2em;
-    position: absolute;
-    text-align: center;
-    top: 175%;
-    right: 22%;
-    height: auto;
-    text-align: right;
-    z-index: 1;
-}
-
-.cover-overlay-right-2 {
-    width: 50%;
-    height: auto;
-    min-height: 350px;
-    position: absolute;
-    border: transparent;
-    top: 155%;
-    right: 18%;
-    z-index: 0;
-}
-
-/*-------------------------------------------contact2-------------------------------------------*/
-
-.txt-overlay-tagline-right-3 {
-    font-family: satisfy;
-    font-size: 5em;
-    position: absolute;
-    top: 240%;
-    right: 22%;
-    color: rgb(232, 14, 138);
-    text-align: right;
-    z-index: 1;
-}
-
-.txt-overlay-desc-right-3 {
-    font-family: ralewaybold;
-    color: black;
-    font-weight: 600;
-    font-size: 2em;
-    position: absolute;
-    text-align: center;
-    top: 250%;
-    right: 22%;
-    height: auto;
-    text-align: right;
-    z-index: 1;
-}
-
-.cover-overlay-right-3 {
-    width: 50%;
-    height: auto;
-    min-height: 350px;
-    position: absolute;
-    border: transparent;
-    top: 240%;
-    right: 18%;
-    z-index: 0;
-}
 
 input[type=text], select {
   width: 100%;
