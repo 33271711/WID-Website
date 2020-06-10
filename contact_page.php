@@ -19,7 +19,7 @@ Template Name: Home page
     <span class="txt-overlay-desc-right">Tagline text here</span>
 </div>
 <div id="speaker" class="container">
-    <img src="" class=""><br>
+    <img src="" class="">
     <span class="txt-overlay-tagline-right">Wish to be a speaker?</span>
 </div>
 
