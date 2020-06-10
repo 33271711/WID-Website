@@ -236,6 +236,27 @@ body {
     margin-bottom: 20px;
 }
 
+.EventPageTitle {
+    font-family: satisfy;
+    font-weight: 100;
+    font-size: 3em;
+    color: rgb(232, 14, 138);
+}
+
+.EventPageParagraph {
+    font-family: raleway, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: black;
+}
+
+.EventPageDetails {
+    font-family: raleway, sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: white;
+}
+
 .Date {
     font-family: satisfy;
     font-weight: 100;
@@ -253,6 +274,12 @@ body {
     padding-bottom: 10px;
 }
 
+.EventTitle2 {
+    font-family: ralewaybold;
+    font-size: 2em;
+    color: black;
+    margin-left: 0.75em;
+}
 
 .Paragraph {
     font-family: raleway, sans-serif;
@@ -260,6 +287,14 @@ body {
     font-size: 1em;
     margin-left: 1.45em;
 }
+
+.ParagraphBig {
+    font-family: raleway, sans-serif;
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-left: 1.2em;
+}
+
 
 .Button {
     font-family: OpenSans, sans-serif, bold;
@@ -500,6 +535,29 @@ body {
     transition: 0.3s;
 }
 
+.btn-lg-ticket {
+    font-family: ralewaybold;
+    font-size: 20px;
+    position: relative;
+    color: #ffffff;
+    background-color: #449394;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    float: left;
+}
+
+.btn-lg-ticket:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
 .btn-lg-event-center {
     font-family: ralewaybold;
     color: #ffffff;
@@ -716,6 +774,7 @@ display: block;
     text-align: center;
 }
 
+
 .memberName{
     font-family: raleway;
     font-size: 1.2em;
@@ -729,6 +788,24 @@ display: block;
     text-align: left;
     margin-bottom: 20px;
     margin-left: 40px;
+}
+
+.speakerTopic{
+    font-family: ralewaybold;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.speakerName{
+    font-family: raleway;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.speakerCompany{
+    font-family: raleway;
+    font-size: 1em;
+    text-align: center;
 }
 
 /*-------------------------------------------button-------------------------------------------*/
