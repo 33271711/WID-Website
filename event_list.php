@@ -53,7 +53,7 @@
         <h4 class="EventTitle"><?php the_field('PastEventTitle2'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription2'); ?></h4>
         <a href="<?php the_field('PastEventLink2'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/events3.jpg" alt="EventImg""" class="event-img" alt="contact"></div>
+        <div class="col-md-4"><img src="<?php the_field('eventimg1'); ?>/images/events3.jpg" alt="EventImg""" class="event-img" alt="contact"></div>
     </div>
     </div>
     <div class="container-fluid past-event-bg">
@@ -64,7 +64,7 @@
         <h4 class="EventTitle"><?php the_field('PastEventTitle3'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription3'); ?></h4>
         <a href="<?php the_field('PastEventLink3'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/events2.jpg" alt="EventImg" class="event-img" alt="contact"></div></div>
+        <div class="col-md-4"><img src="<?php the_field('eventimg2'); ?>/images/events2.jpg" alt="EventImg" class="event-img" alt="contact"></div></div>
     </div>
     <div class="container-fluid past-event-bg">
      <div class="row event-tab"> 
@@ -74,7 +74,7 @@
         <h4 class="EventTitle"><?php the_field('PastEventTitle4'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription4'); ?></h4>
         <a href="<?php the_field('PastEventLink4'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/events3.jpg" alt="EventImg" class="event-img" alt="contact"></div>
+        <div class="col-md-4"><img src="<?php the_field('eventimg3'); ?>/images/events3.jpg" alt="EventImg" class="event-img" alt="contact"></div>
     </div></div>
     </div>
     </div>
@@ -85,10 +85,10 @@
 <!-- Gallery -->
     <div class="modal_centering">
 <!-- Trigger the Modal -->
-            <img class="modal_image" src="<?php echo get_template_directory_uri(); ?>/images/events3.jpg" alt="EventImg1" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php echo get_template_directory_uri(); ?>/images/events1.jpg" alt="EventImg2" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php echo get_template_directory_uri(); ?>/images/events2.jpg" alt="EventImg3" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php echo get_template_directory_uri(); ?>/images/homecupofcoffee.jpg" alt="EventImg4" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg1'); ?>/images/events3.jpg" alt="EventImg1" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg2'); ?>/images/events1.jpg" alt="EventImg2" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg3'); ?>/images/events2.jpg" alt="EventImg3" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg4'); ?>/images/homecupofcoffee.jpg" alt="EventImg4" style="width:100%;max-width:280px">
     </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
