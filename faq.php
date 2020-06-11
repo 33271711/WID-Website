@@ -6,7 +6,7 @@ Template Name: FAQ page
 <?php get_header(); /* Tells WordPress to include header.php */ ?>
 
     <div>
-    <img src="images/faq-header-girl.jpeg" class="img-responsive faq-header">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/faq-header-girl.jpeg" class="img-responsive faq-header">
     </div>
     <div>
     <span class="txt-lg-overlay-faq">Support</span>

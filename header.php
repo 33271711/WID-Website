@@ -65,7 +65,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="images/logo.png" class="nav-logo"></a>
+                <a class="navbar-brand" href="http://wuk.yew.mybluehost.me/"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" class="nav-logo"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
