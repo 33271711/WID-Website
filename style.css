@@ -1,3 +1,9 @@
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+ z-index: 3;
+}
 
 a:link {
   color: rgb(232, 14, 138);
@@ -44,6 +50,9 @@ body {
 /*-------------------------------------------circle-------------------------------------------*/
 .img-circle{
     object-fit: cover;
+    margin: auto;    
+display: block;
+    margin-bottom: 20px;    
 }
 
 /*-------------------------------------------circle-------------------------------------------*/
@@ -143,7 +152,8 @@ body {
 .carousel-overlay {
     width: 70%;
     height: auto;
-    min-height: 350px;
+    min-height: 320px;
+    max-height: 350px;
     position: absolute;
     border: transparent;
     top: 30%;
@@ -168,10 +178,20 @@ body {
     width: 100%;
     height: auto;
     background-repeat: no-repeat;
+    min-height: 600px;
     max-width: 800px;
+    object-fit: cover;
+    }
+
+.right-img{  
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    max-width: 800px;
+    object-fit: cover;
     
 }
-
 /*-------------------------------------------Fonts-------------------------------------------*/
 
 @font-face {
@@ -400,6 +420,7 @@ body {
     position: relative;
     margin: auto;
     min-height: 400px;
+    object-fit: cover;
 }
 
 
@@ -570,7 +591,7 @@ body {
     transition: 0.3s;
     display: block;
     margin: auto;
-    width: 20%;
+    width: 40%;
 }
 
 .btn-lg-event-center:hover {
@@ -782,6 +803,12 @@ display: block;
     margin-bottom: 50px;
 }
 
+.memberNameNoMargin{
+    font-family: raleway;
+    font-size: 1.2em;
+    text-align: center;
+}
+
 .memberName2{
     font-family: raleway;
     font-size: 1.2em;
@@ -878,7 +905,6 @@ span {
     position: relative;
     text-align: right;
 }
-.
 
 
 input[type=text], select {
@@ -970,6 +996,31 @@ input[type=submit]:hover {
     text-align: center;
     display: block;
     padding-top: 150px;
+}
+
+.healing-smile-bg-main {
+    background-image: url(images/homehealingsmile.png);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-overlay-title-right {
+    font-family: Satisfy;
+    font-size: 4em;
+    padding-top: 200px;
+    padding-right: 20px;
+    color: rgb(232, 14, 138);
+    position: relative;
+    text-align: right;
+}
+
+.home-overlay-desc-right {
+    font-family: ralewaybold;
+    color: black;
+    font-size: 0.5em;
+    padding-right: 20px;
+    text-align: right;
 }
 
 /*-------------------------------------------Modal-------------------------------------------*/
