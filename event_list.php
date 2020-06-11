@@ -74,7 +74,7 @@
         <h4 class="EventTitle"><?php the_field('PastEventTitle4'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription4'); ?></h4>
         <a href="<?php the_field('PastEventLink4'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php the_field('eventimg3'); ?>/images/events3.jpg" alt="EventImg" class="event-img" alt="contact"></div>
+        <div class="col-md-4"><img src="<?php the_field('eventimg3'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
     </div></div>
     </div>
     </div>
@@ -85,10 +85,10 @@
 <!-- Gallery -->
     <div class="modal_centering">
 <!-- Trigger the Modal -->
-            <img class="modal_image" src="<?php the_field('modalimg1'); ?>/images/events3.jpg" alt="EventImg1" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php the_field('modalimg2'); ?>/images/events1.jpg" alt="EventImg2" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php the_field('modalimg3'); ?>/images/events2.jpg" alt="EventImg3" style="width:100%;max-width:280px">
-            <img class="modal_image" src="<?php the_field('modalimg4'); ?>/images/homecupofcoffee.jpg" alt="EventImg4" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg1'); ?>" alt="EventImg1" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg2'); ?>" alt="EventImg2" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg3'); ?>" alt="EventImg3" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg4'); ?>" alt="EventImg4" style="width:100%;max-width:280px">
     </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
