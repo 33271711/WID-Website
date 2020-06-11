@@ -77,6 +77,13 @@
         top:15%;
 
 }
+    .hero-text {
+        display: none;
+    }
+    
+    .hero-sub-text {
+        display: none;
+    }
 
 .event-sub-text {
     top: 27%;
@@ -89,6 +96,7 @@
     text-align: left;
     font-size: 1.5em;
     }
+}
 
 @media only screen and (max-width:575px) {
     .carousel-overlay {

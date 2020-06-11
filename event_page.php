@@ -17,9 +17,7 @@
 
 <div class="container-fluid past-event-bg-noround">
     <div class="row">
-        <br>
-        <br>
-        <div class="col-md-3 col-md-offset-1"><img scr="<?php echo get_template_directory_uri(); ?>/images/events3.jpg"></div>
+        <div class="col-md-3 col-md-offset-1"><img src="<?php echo get_template_directory_uri(); ?>/images/events3.jpg"></div>
         <div class="col-md-7">
             <p class="EventPageTitle" style="text-align: left;">Information</p>
             <p class="EventPageParagraph" style="text-align: left;"><?php the_field('eventdesc1'); ?></p>
