@@ -25,7 +25,7 @@
         <a href="<?php the_field('EventLink1'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
         
          </div>
-    <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/events1.jpg" alt="Sponsor" class="event-img" alt="contact"></div>
+    <div class="col-md-4"><img src="<?php the_field('eventimg1'); ?>" alt="event1" class="event-img" alt="contact"></div>
     </div>
 </div>    
 </div>
@@ -42,7 +42,7 @@
         <h4 class="EventTitle"><?php the_field('PastEventTitle1'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription1'); ?></h4>
         <a href="<?php the_field('PastEventLink1'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-    <div class="col-md-4"><img src="<?php echo get_template_directory_uri(); ?>/images/events2.jpg" alt="EventImg" class="event-img" alt="contact"></div>
+    <div class="col-md-4"><img src="<?php the_field('pastevent1'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
     </div>
 <br>
 <div class="container-fluid past-event-bg">

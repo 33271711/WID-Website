@@ -15,30 +15,21 @@ Template Name: Homepage
         </ol>
         <div class="carousel-inner i">
             <div class="item active">
-                <?php $img = get_field('carousel1'); ?>
-<?php if( $img ): ?>
-      <img class="img-responsive rel-img" alt="<?php esc_attr_e( $img['alt'] ); ?>" src="<?php echo esc_url( $img['url'] ); ?>">
-<?php endif; ?>
-                </div>
-
-            <div class="item">
-                <?php $img = get_field('carousel2'); ?>
-<?php if( $img ): ?>
-      <img class="img-responsive rel-img" alt="<?php esc_attr_e( $img['alt'] ); ?>" src="<?php echo esc_url( $img['url'] ); ?>">
-<?php endif; ?>
+                <img src="<?php the_field('carousel1'); ?>" alt="i1" class="img-responsive rel-img">
             </div>
 
             <div class="item">
-                <?php $img = get_field('carousel3'); ?>
-<?php if( $img ): ?>
-      <img class="img-responsive rel-img" alt="<?php esc_attr_e( $img['alt'] ); ?>" src="<?php echo esc_url( $img['url'] ); ?>">
-<?php endif; ?>
+                <img src="<?php the_field('carousel2'); ?>" alt="i2" class="img-responsive rel-img">
+            </div>
+
+            <div class="item">
+                <img src="<?php the_field('carousel3'); ?>" alt="i3" class="img-responsive rel-img">
             </div>
             </div>
         <span class="img-overlay"><img src="<?php echo get_template_directory_uri(); ?>/images/home_page-carousel_overlay-white.png" alt="bg" class="carousel-overlay"></span>
         <h1 class="txt-overlay-tagline"><?php the_field('title'); ?></h1>
         <span class="txt-overlay-desc"><?php the_field('tagline'); ?></span>
-        <a href='http://wuk.yew.mybluehost.me/contact-us/' class="btn-lg" role="button">JOIN US</a>
+    <a href='http://wuk.yew.mybluehost.me/contact-us/'><button class="btn-lg" role="button">JOIN US</button></a>
     </div>
 
 
@@ -46,7 +37,7 @@ Template Name: Homepage
     <div class="container-fluid past-event-bg-noround">
         <div class="row">
             <div class="col-md-5">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus-header.jpg" class="left-img">
+                <img src="<?php the_field('aboutusimg'); ?>" class="left-img">
             </div>
             <div class="col-md-6">
                 <div class="Heading" style="margin-left: 2em"> Who We are</div>
@@ -60,16 +51,16 @@ Template Name: Homepage
             <div class="row">
                 <div class="container Heading"> What we do</div>
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/homeeventsround.jpg" class="img-circle" alt="Cinque Terre" width="304" height="304">
+                    <img src="<?php the_field('roundimg1'); ?>" class="img-circle" alt="Cinque Terre" width="304" height="304">
                     <br>
-                    <p class="memberRole">Feeling bored?</p>
-                    <p class="memberNameNoMargin">Come join our events and meetings!</p>
-                    <a href="http://wuk.yew.mybluehost.me/events/"><button class="btn-lg-event-center" role="button">EVENTS</button></a><br>
+                    <p class="memberRole"><?php the_field('eventtitle'); ?></p>
+                    <p class="memberNameNoMargin"><?php the_field('eventdesc'); ?></p>
+                    <a href="http://wuk.yew.mybluehost.me/events/"><button class="btn-lg-event-center" role="button">EVENTS</button></a><br>3.0 
                 </div>
 
 
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/homejoinround.jpg" class="img-circle" alt="Cinque Terre" width="304" height="304">
+                    <img src="<?php the_field('roundimg2'); ?>" class="img-circle" alt="Cinque Terre" width="304" height="304">
                     <br>
                     <p class="memberRole">Become a member today</p>
                         <p class="memberNameNoMargin">Apply for membership</p>
@@ -77,7 +68,7 @@ Template Name: Homepage
                 </div>
 
                 <div class="col-md-4">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/homesupportround.jpg" class="img-circle" alt="Cinque Terre" width="304" height="304">
+                    <img src="<?php the_field('roundimg3'); ?>" class="img-circle" alt="Cinque Terre" width="304" height="304">
                     <br>
                     <p class="memberRole">Need help? Have questions?</p>
                         <p class="memberNameNoMargin">Contact us for more information</p>
