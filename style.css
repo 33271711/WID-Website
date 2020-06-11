@@ -379,7 +379,6 @@ display: block;
 }
 .past-event-bg-noround{
     background-color: #9cbcbb;
-    
 }
 
 .event-tab{
@@ -408,7 +407,7 @@ display: block;
     text-shadow: 0 0 5px white;
 }
 
-.event-img-small {
+.eventimgsmall {
     object-fit: cover;
     max-width: 400px;
     height: auto;
@@ -536,6 +535,7 @@ display: block;
 
 .btn-lg-event {
     font-family: ralewaybold;
+    color: white;
     position: relative;
     color: #ffffff;
     background-color: #449394;
@@ -999,7 +999,7 @@ input[type=submit]:hover {
 }
 
 .healing-smile-bg-main {
-    background-image: url(images/homehealingsmile.png);
+    background-image: url(images/homehealingsmile.jpg);
     min-height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
