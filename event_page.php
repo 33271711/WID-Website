@@ -55,25 +55,25 @@
     <div class="container">
     <div class="row">
     <div class="col-md-3">
-	<img src="<?php the_field('speakerimg1'); ?>/images/Dr%20Jacinta%20Vu%202.jpg" alt="Profile1" class="profile">
+	<img src="<?php the_field('speakerimg1'); ?>" alt="Profile1" class="profile">
     <p class="speakerTopic"><?php the_field('speakertopic1'); ?></p>
     <p class="speakerName"><?php the_field('speakername1'); ?></p>
     <p class="speakerCompany"><?php the_field('speakerorg1'); ?></p>
     </div>        
     <div class="col-md-3">
-    <img src="<?php the_field('speakerimg2'); ?>/images/Dr%20Lucy%20De%20Jesus%202.jpg" alt="Profile2" class="profile">
+    <img src="<?php the_field('speakerimg2'); ?>" alt="Profile2" class="profile">
     <p class="speakerTopic"><?php the_field('speakertopic2'); ?></p>
     <p class="speakerName"><?php the_field('speakername2'); ?></p>
     <p class="speakerCompany"><?php the_field('speakerorg2'); ?></p>
     </div>
     <div class="col-md-3">
-    <img src="<?php the_field('speakerimg3'); ?>/images/Dr%20Rebecca%20Williams%202.jpg" alt="Profile3" class="profile">
+    <img src="<?php the_field('speakerimg3'); ?>" alt="Profile3" class="profile">
     <p class="speakerTopic"><?php the_field('speakertopic3'); ?></p>
     <p class="speakerName"><?php the_field('speakername3'); ?></p>
     <p class="speakerCompany"><?php the_field('speakerorg3'); ?></p> 
     </div>
     <div class="col-md-3">
-    <img src="<?php the_field('speakerimg4'); ?>/images/Dr%20Jippy%20Buck%202.jpg" alt="Profile4" class="profile"> 
+    <img src="<?php the_field('speakerimg4'); ?>" alt="Profile4" class="profile"> 
     <p class="speakerTopic"><?php the_field('speakertopic4'); ?></p>
     <p class="speakerName"><?php the_field('speakername4'); ?></p>
     <p class="speakerCompany"><?php the_field('speakerorg4'); ?></p>
