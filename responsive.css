@@ -122,7 +122,11 @@
   }
     .txt-overlay-faq{
     display: none;
-}
+    }
+    .txt-lg-overlay-faq{
+            display: none;
+    }
+
     .event-header-text {
     font-size: 2em;
     top:14%;

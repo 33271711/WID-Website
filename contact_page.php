@@ -9,7 +9,7 @@ Template Name: Contact Page
   <div>
     <h1 class="hero-text Heading">Contact us</h1>
       <br>
-      <p class="hero-sub-text">Stay Up to Date with the Latest Events</p>
+      <p class="hero-sub-text">Feel free to get in touch with us if you have any questions, comments or feedback</p>
 </div>
     <br>
 <div class="container speaker-bg">
