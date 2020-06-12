@@ -2,20 +2,21 @@
     <div class="row">
     <div class= "footer-content">
           <p>CONTACT US AT<br>
-  <a href="admin@womenindentistry.net">admin@womenindentistry.net</a></p> 
+  <a href="mailto:admin@womenindentistry.net">admin@womenindentistry.net</a></p> 
     <div class="col-md-6 text-center">
-       <img src="images/widlogo.png" alt="widlogo" width="250px">
+       <img src="<?php echo get_template_directory_uri(); ?>/images/logo.jpg" alt="widlogo" width="250px">
     </div>
     <div class="col-md-6 text-center hover">
-        <a href="admin@womenindentistry.net"><img src="images/inlogo.png" alt="inlogo"></a>
-        <a href="admin@womenindentistry.net"><img src="images/fblogo.png" alt="fblogo"></a>
+        <a href="admin@womenindentistry.net"><img src="<?php echo get_template_directory_uri(); ?>/images/inlogo.jpg" alt="inlogo"></a>
+        <a href="https://www.facebook.com/Women.in.Dentistry.Society/"><img src="<?php echo get_template_directory_uri(); ?>/images/fblogo.jpg" alt="fblogo"></a>
     </div>
     </div>
     </div>
     <hr width=100% align=center>
     <div class= "footer-content">
     <p style="color:darkgrey;">© 2020 Women In Dentistry Society. All rights reserved.
-        <a href="sitemapURL.com">Sitemap</a></p>
+        <a href="https://www.xml-sitemaps.com/download/wuk.yew.mybluehost.me-7442789aa/sitemap.xml?view=1">Sitemap</a> <a href="http://wuk.yew.mybluehost.me/privacy-policy/">Privacy Policy</a></p>
+        
     </div>    
 </footer>  
 

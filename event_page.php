@@ -11,13 +11,14 @@
     <h1 class="event-header-text Heading"><?php the_field('eventheader'); ?></h1>
       <br>
       <p class="event-sub-text"><?php the_field('eventheaderdesc'); ?></p>
-      <a href="<?php the_field('ticketlink'); ?>" class="btn-lg-event-header" role="button">BUY TICKETS</a>
+      <a href="<?php the_field('ticketlink'); ?>" class="btn-lg-event-header-page" role="button">BUY TICKETS</a>
   </div>
 </div>
 
 <div class="container-fluid past-event-bg-noround">
+    <br><br>
     <div class="row">
-        <div class="col-md-3 col-md-offset-1"><img src="<?php echo get_template_directory_uri(); ?>/images/events3.jpg"></div>
+        <div class="col-md-3 col-md-offset-2"><img src="<?php the_field('eventimg'); ?>" class="event-img-small"></div>
         <div class="col-md-7">
             <p class="EventPageTitle" style="text-align: left;">Information</p>
             <p class="EventPageParagraph" style="text-align: left;"><?php the_field('eventdesc1'); ?></p>
@@ -83,7 +84,7 @@
 <div class="container past-event-bg">
     <h2 class="Title">Need more information?</h2>
     <p class="Paragraph" style="text-align: center">Sign up to get our newsletter for all the latest events and news!</p>
-    <a href="" class="btn-lg-event-center" role="button">CONTACT US</a>
+    <a href="http://wuk.yew.mybluehost.me/contact-us/" class="btn-lg-event-center" role="button">CONTACT US</a>
 <br>
 <br>
 </div>

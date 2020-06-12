@@ -627,6 +627,31 @@ body {
     transition: 0.3s;
 }
 
+.btn-lg-event-header-page {
+    font-family: ralewaybold;
+    color: #ffffff !important;
+    background-color: #449394;
+    text-align: center;
+    position: absolute;
+    top:42%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: transparent;
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: auto;
+    width: 20%;
+}
+
+.btn-lg-event-header-page:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
 .btn-lg-contact {
     font-family: ralewaybold;
     position: relative;
@@ -710,8 +735,9 @@ a:hover {
 /* Place text in the middle of the image */
 .hero-text {
     position: absolute;
-    top: 25%;
-    left: 42%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: rgb(232, 14, 138);
 }
 
@@ -719,7 +745,7 @@ a:hover {
     font-family: ralewaybold;
     text-align: center;
     position: absolute;
-    top: 40%;
+    top: 28%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
@@ -878,33 +904,45 @@ span {
 
 
 .healing-smile-bg {
-    background-image: url(images/contact-body-healing-smiles.jpg);
+    background-image: url(images/contact-body-healing-smiles.jpeg);
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .speaker-bg {
-    background-image: url(images/contact-body-speaker%20copy.jpg);
+    background-image: url(images/contact-body-speaker.jpg);
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .sponsor-bg {
-    background-image: url(images/contact-body-sponser%20copy.jpg);
+    background-image: url(images/contact-body-sponser.jpeg);
     min-height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.contact-overlay-desc-right {
-    font-family: ralewaybold;
-    font-size: 2em;
-    padding-top: 200px;
+.contact-overlay-title-right {
+    font-family: Satisfy;
+    font-size: 4em;
+    color:rgb(232, 14, 138);
+    padding-top: 130px;
     padding-right: 20px;
     position: relative;
     text-align: right;
+    text-shadow: 0 0 5px white;
+}
+
+.contact-overlay-desc-right {
+    font-family: ralewaybold;
+    font-size: 2em;
+    padding-top: 5px;
+    padding-right: 20px;
+    position: relative;
+    text-align: right;
+    text-shadow: 0 0 5px white;
 }
 
 
@@ -1038,6 +1076,7 @@ input[type=submit]:hover {
     transition: 0.3s;
     max-height: 160px;
     object-fit: cover;
+    padding-bottom: 3px;
 }
 
 .modal_image:hover {opacity: 0.7;}
@@ -1088,7 +1127,7 @@ input[type=submit]:hover {
 /* The Close Button */
 .close {
     position: absolute;
-    top: 15px;
+    top: 50px;
     right: 35px;
     color: #f1f1f1;
     font-size: 40px;

@@ -137,5 +137,62 @@
         width: 50%;
 }
 
+.txt-overlay-desc {
+        font-size: 1.5em;
+        top: 40%;
+    }
+
+    .txt-overlay-tagline {
+        font-size: 2em;
+        top: 25%;
+    }
+
+.left-img{
+    min-height: 160px;
+    max-height: 180px;
+    margin: auto;
+}
+    
+    .event-header-text{
+        position: relative;
+    }
+        .event-sub-text{
+        position: relative;
+            top: 10%;
+            padding-bottom: 2em;
+    }
+    .btn-lg-event-header-page {
+    top:62%;
+    left: 50%;
+    width: 40%;
+}
+    .speaker-bg {
+        min-height: 500px;
+        background-position: center center;
+    }
+    
+    .healing-smile-bg{
+        min-height: 500px;
+        background-position: center center;
+    }
+    
+    .sponsor-bg {
+        min-height: 500px;
+        background-position: center center;
+    }
+    .contact-overlay-title-right {
+    font-size: 3em;
+    padding-top: 100px;
+    padding-right: 0px;
+    text-align: center;
 }
 
+.contact-overlay-desc-right {
+    font-family: ralewaybold;
+    font-size: 1.5em;
+    padding-top: 5px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+}

@@ -10,7 +10,7 @@
   <div>
     <h1 class="hero-text Heading">Events</h1>
       <br>
-      <p class="hero-sub-text">Stay Up to Date on News and Event</p>
+      <p class="hero-sub-text">Stay Up to Date on News and Event</p><br>
   </div>
 </div>
 
@@ -18,14 +18,14 @@
 
 <div class="container-fluid event-tab">
      <div class="row event-tab"> 
-    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('Date1'); ?></h4></div></div>
+    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('Date1'); ?></h4><br></div></div>
     <div class="col-md-5"> 
         
-        <h4 class="EventTitle"><?php the_field('EventTitle1'); ?></h4><h4 class="Paragraph"><?php the_field('EventDescription1'); ?></h4>
+        <h4 class="EventTitle"><?php the_field('EventTitle1'); ?></h4><h4 class="Paragraph"><?php the_field('EventDescription1'); ?></h4><br><br>
         <a href="<?php the_field('EventLink1'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
         
          </div>
-    <div class="col-md-4"><img src="<?php the_field('eventimg1'); ?>" alt="event1" class="event-img" alt="contact"></div>
+    <div class="col-md-4"><img src="<?php the_field('EventImage1'); ?>" alt="event1" class="event-img" alt="contact"></div>
     </div>
 </div>    
 </div>
@@ -36,50 +36,51 @@
 
     <div class="container-fluid past-event-bg">
      <div class="row event-tab"> 
-    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate1'); ?></h4></div></div>
+    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate1'); ?></h4><br></div></div>
     <div class="col-md-5"> 
         
-        <h4 class="EventTitle"><?php the_field('PastEventTitle1'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription1'); ?></h4>
+        <h4 class="EventTitle"><?php the_field('PastEventTitle1'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription1'); ?></h4><br><br>
         <a href="<?php the_field('PastEventLink1'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-    <div class="col-md-4"><img src="<?php the_field('pasteventimg1'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
+    <div class="col-md-4"><img src="<?php the_field('PastEventImage1'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
     </div>
 <br>
 <div class="container-fluid past-event-bg">
     <div class="row event-tab"> 
-    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate2'); ?></h4></div></div>
+    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate2'); ?></h4><br></div></div>
     <div class="col-md-5"> 
         
-        <h4 class="EventTitle"><?php the_field('PastEventTitle2'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription2'); ?></h4>
+        <h4 class="EventTitle"><?php the_field('pasteventtitle'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription2'); ?></h4><br><br>
         <a href="<?php the_field('PastEventLink2'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php the_field('pasteventimg2'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
+        <div class="col-md-4"><img src="<?php the_field('PastEventImage2'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
     </div>
     </div>
     <div class="container-fluid past-event-bg">
      <div class="row event-tab"> 
-    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate3'); ?></h4></div></div>
+    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate3'); ?></h4><br></div></div>
     <div class="col-md-5"> 
         
-        <h4 class="EventTitle"><?php the_field('PastEventTitle3'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription3'); ?></h4>
+        <h4 class="EventTitle"><?php the_field('PastEventTitle3'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription3'); ?></h4><br><br>
         <a href="<?php the_field('PastEventLink3'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php the_field('pasteventimg3'); ?>" alt="EventImg" class="event-img" alt="contact"></div></div>
+        <div class="col-md-4"><img src="<?php the_field('PastEventImage3'); ?>" alt="EventImg" class="event-img" alt="contact"></div></div>
     </div>
     <div class="container-fluid past-event-bg">
      <div class="row event-tab"> 
-    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate4'); ?></h4></div></div>
+    <div class="col-md-2 col-md-offset-1"><div class="event-divider"><h4 class="Date"><?php the_field('PastEventDate4'); ?></h4></div></div><br>
     <div class="col-md-5"> 
         
-        <h4 class="EventTitle"><?php the_field('PastEventTitle4'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription4'); ?></h4>
+        <h4 class="EventTitle"><?php the_field('PastEventTitle4'); ?></h4><h4 class="Paragraph"><?php the_field('PastEventDescription4'); ?></h4><br><br>
         <a href="<?php the_field('PastEventLink4'); ?>" class="btn-lg-event" role="button">MORE INFO</a>
          </div>
-        <div class="col-md-4"><img src="<?php the_field('pasteventimg4'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
+        <div class="col-md-4"><img src="<?php the_field('PastEventImage4'); ?>" alt="EventImg" class="event-img" alt="contact"></div>
     </div></div>
     </div>
     </div>
-   
-    
+   <br>
+<div class="container"> <a href="http://wuk.yew.mybluehost.me/all-event-list/" class="ParagraphBig" style="display: block; text-align: center; margin: auto;">For a list of all the past events, please click HERE</a></div>
+
 <br>
 <h2 class="Title">Photos</h2>
 <!-- Gallery -->
@@ -89,6 +90,11 @@
             <img class="modal_image" src="<?php the_field('modalimg2'); ?>" alt="EventImg2" style="width:100%;max-width:280px">
             <img class="modal_image" src="<?php the_field('modalimg3'); ?>" alt="EventImg3" style="width:100%;max-width:280px">
             <img class="modal_image" src="<?php the_field('modalimg4'); ?>" alt="EventImg4" style="width:100%;max-width:280px">
+            <br>
+            <img class="modal_image" src="<?php the_field('modalimg5'); ?>" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg6'); ?>" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg7'); ?>" style="width:100%;max-width:280px">
+            <img class="modal_image" src="<?php the_field('modalimg8'); ?>" style="width:100%;max-width:280px">
     </div>
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -96,10 +102,11 @@
   <img class="modal-content" id="img01">
 </div>
 <br>
+
 <div class="container past-event-bg">
     <h2 class="Title">Need more information?</h2>
     <p class="Paragraph" style="text-align: center">Sign up to get our newsletter for all the latest events and news!</p>
-    <a href="" class="btn-lg-event-center" role="button">CONTACT US</a>
+    <a href="http://wuk.yew.mybluehost.me/contact-us/" class="btn-lg-event-center" role="button">CONTACT US</a>
 <br>
 <br>
 </div>

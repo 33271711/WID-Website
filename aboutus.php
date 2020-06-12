@@ -137,7 +137,7 @@ Template Name: About Us
 <div class="Title">  
 <p class="AboutTitle">How to contact us</p>  
 </div>
-	<p class="AboutParagraph"> More information on how to contact us is located within the <a href="">CONTACT</a> page of our website, or just send us an email to ask a question. <br><br> <a href="" class="btn-lg-event-center" role="button">EMAIL</a></p>
+	<p class="AboutParagraph"> More information on how to contact us is located within the <a href="http://wuk.yew.mybluehost.me/contact-us/">CONTACT</a> page of our website, or just send us an email to ask a question. <br><br> <a href="mailto:admin@womenindentistry.net" class="btn-lg-event-center" role="button">EMAIL</a></p>
     <br>
 </div>
 <?php get_footer();
