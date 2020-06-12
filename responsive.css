@@ -64,7 +64,7 @@
     .btn-lg-event-header {
         top:50%;
 }
-    }
+}
 
 @media only screen and (max-width:700px) {
     
@@ -127,7 +127,7 @@
             display: none;
     }
 
-    .event-header-text {
+.event-header-text {
     font-size: 2em;
     top:14%;
 
@@ -160,10 +160,10 @@
     .event-header-text{
         position: relative;
     }
-        .event-sub-text{
-        position: relative;
-            top: 10%;
-            padding-bottom: 2em;
+    .event-sub-text{
+    position: relative;
+    top: 10%;
+    padding-bottom: 2em;
     }
     .btn-lg-event-header-page {
     top:62%;

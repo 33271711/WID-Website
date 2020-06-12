@@ -456,7 +456,7 @@ body {
  
 }
 
-.active, .accordion:hover {
+.active2, .accordion:hover {
   background-color: #ec008c;
     color: white;
 }
@@ -469,7 +469,7 @@ body {
   margin-left: 5px;
 }
 
-.active:after {
+.active2:after {
   content: "\2212";
 }
 
